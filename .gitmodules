@@ -1,0 +1,3 @@
+[submodule "website/wp-content/plugins/woocommerce"]
+	path = website/wp-content/plugins/woocommerce
+	url = git@github.com:Valks/woocommerce.git
