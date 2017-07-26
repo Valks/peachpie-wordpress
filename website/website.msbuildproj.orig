@@ -10,9 +10,15 @@
   </ItemGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <DotNetCliToolReference Include="Peachpie.Compiler.Tools" Version="0.7.0-*" />
     <PackageReference Include="Peachpie.NET.Sdk" Version="0.7.0-*" PrivateAssets="Build" />
+	<PackageReference Include="Peachpie.App" Version="0.7.0-*" />
+=======
+    <DotNetCliToolReference Include="Peachpie.Compiler.Tools" Version="0.7.0-CI00256" />
+    <PackageReference Include="Peachpie.NET.Sdk" Version="0.7.0-CI00256" PrivateAssets="Build" />
 	<PackageReference Include="Peachpie.Library.Graphics" Version="0.7.0-CI00256" PrivateAssets="Build" />
+>>>>>>> master
   </ItemGroup>
   
   <!-- A temporary solution, import C# Visual Studio design time targets in order to be able to load the project in Visual Studio -->
