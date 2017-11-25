@@ -1,59 +1,66 @@
 <?php
+/**
+ * Noop functions for load-scripts.php and load-styles.php.
+ *
+ * @package WordPress
+ * @subpackage Administration
+ * @since 4.4.0
+ */
 
-// /**
- // * @ignore
- // */
-// function __() {}
+/**
+ * @ignore
+ */
+function __() {}
 
-// /**
- // * @ignore
- // */
-// function _x() {}
+/**
+ * @ignore
+ */
+function _x() {}
 
-// /**
- // * @ignore
- // */
-// function add_filter() {}
+/**
+ * @ignore
+ */
+function add_filter() {}
 
-// /**
- // * @ignore
- // */
-// function esc_attr() {}
+/**
+ * @ignore
+ */
+function esc_attr() {}
 
-// /**
- // * @ignore
- // */
-// function apply_filters() {}
+/**
+ * @ignore
+ */
+function apply_filters() {}
 
-// /**
- // * @ignore
- // */
-// function get_option() {}
+/**
+ * @ignore
+ */
+function get_option() {}
 
-// /**
- // * @ignore
- // */
-// function is_lighttpd_before_150() {}
+/**
+ * @ignore
+ */
+function is_lighttpd_before_150() {}
 
-// /**
- // * @ignore
- // */
-// function add_action() {}
+/**
+ * @ignore
+ */
+function add_action() {}
 
-// /**
- // * @ignore
- // */
-// function did_action() {}
+/**
+ * @ignore
+ */
+function did_action() {}
 
-// /**
- // * @ignore
- // */
-// function do_action_ref_array() {}
+/**
+ * @ignore
+ */
+function do_action_ref_array() {}
 
-// /**
- // * @ignore
- // */
-// function get_bloginfo() {}
+/**
+ * @ignore
+ */
+function get_bloginfo() {}
 
 /**
  * @ignore
@@ -85,12 +92,12 @@ function includes_url() {}
  */
 function wp_guess_url() {}
 
-//if ( ! function_exists( 'json_encode' ) ) :
-///**
-// * @ignore
-// */
-//function json_encode() {}
-//endif;
+if ( ! function_exists( 'json_encode' ) ) :
+/**
+ * @ignore
+ */
+function json_encode() {}
+endif;
 
 function get_file( $path ) {
 

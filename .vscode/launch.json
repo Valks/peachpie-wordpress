@@ -6,7 +6,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceRoot}/app/bin/Debug/netcoreapp1.1/app.dll",
+            "program": "${workspaceRoot}/app/bin/Debug/netcoreapp2.0/app.dll",
             "args": [],
             "cwd": "${workspaceRoot}/app",
             "stopAtEntry": false,
@@ -17,16 +17,16 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceRoot}/app/bin/Debug/netcoreapp1.1/app.dll",
+            "program": "${workspaceRoot}/app/bin/Debug/netcoreapp2.0/app.dll",
             "args": [],
             "cwd": "${workspaceRoot}/app",
             "stopAtEntry": false,
             "launchBrowser": {
                 "enabled": true,
-                "args": "${auto-detect-url}/index.php",
+                "args": "${auto-detect-url}",
                 "windows": {
                     "command": "cmd.exe",
-                    "args": "/C start ${auto-detect-url}/index.php"
+                    "args": "/C start ${auto-detect-url}"
                 },
                 "osx": {
                     "command": "open"
